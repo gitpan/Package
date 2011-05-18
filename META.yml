@@ -19,11 +19,9 @@ no_index:
     - inc
     - t
 requires:
-  Module::Install: 1.01
-  Module::Install::ManifestSkip: 0
   Mouse: 0
   MouseX::App::Cmd: 0
   perl: 5.8.3
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.10
+version: 0.11

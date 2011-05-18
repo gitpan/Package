@@ -1,5 +1,13 @@
 =encoding utf8
 
+=head1 NAME
+
+Package::Command - Command support for C<pkg>
+
+=head1 STATUS
+
+This module is not working yet.
+
 =head1 AUTHOR
 
 Ingy döt Net <ingy@cpan.org>

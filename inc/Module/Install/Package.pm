@@ -8,12 +8,9 @@
 
 package Module::Install::Package;
 use strict;
-use Module::Install::Base;
-use vars qw($VERSION @ISA);
-BEGIN {
-    $VERSION = '0.10';
-    @ISA = 'Module::Install::Base';
-}
+
+# use base 'Module::Install::Base';
+use Module::Install::Base; use vars qw(@ISA); BEGIN { @ISA = 'Module::Install::Base' }
 
 use File::Find;
 

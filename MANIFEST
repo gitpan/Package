@@ -10,14 +10,9 @@ inc/Module/Install/Package.pm
 inc/Module/Install/Scripts.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
-inc/Package.pm
-lib/inc/Package.pm
-lib/inc/Package.pod
-lib/Module/Install/Package.pm
-lib/Module/Install/Package.pod
+inc/Module/Package.pm
 lib/Package.pm
 lib/Package.pod
-lib/Package/Bootstrap.pm
 lib/Package/Command.pm
 lib/Package/Command.pod
 Makefile.PL
