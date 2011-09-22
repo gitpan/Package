@@ -4,6 +4,7 @@ inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
+inc/Module/Install/GithubMeta.pm
 inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Package.pm
@@ -13,8 +14,9 @@ inc/Module/Install/WriteAll.pm
 inc/Module/Package.pm
 lib/Package.pm
 lib/Package.pod
-lib/Package/Command.pm
-lib/Package/Command.pod
+lib/Package/Conf.pm
+lib/Package/Conf.pod
+LICENSE
 Makefile.PL
 MANIFEST			This list of files
 META.yml

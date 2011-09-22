@@ -2,11 +2,7 @@
 
 =head1 NAME
 
-Package::Command - Command support for C<pkg>
-
-=head1 STATUS
-
-This module is not working yet.
+Package::Conf - Config Class for Package
 
 =head1 AUTHOR
 

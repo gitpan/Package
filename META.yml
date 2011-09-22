@@ -1,5 +1,5 @@
 ---
-abstract: 'Acmeist Module Packaging Toolchain'
+abstract: 'The Acmeist Module Package Management Tool'
 author:
   - 'Ingy döt Net <ingy@cpan.org>'
 build_requires:
@@ -18,10 +18,17 @@ no_index:
   directory:
     - inc
     - t
+    - xt
 requires:
-  Mouse: 0
-  MouseX::App::Cmd: 0
+  Hash::Merge: 0.12
+  IO::All: 0.43
+  Mouse: 0.93
+  MouseX::App::Cmd: 0.08
+  Template::Toolkit::Simple: 0.13
+  YAML::XS: 0.35
   perl: 5.8.3
 resources:
+  homepage: http://github.com/ingydotnet/package-pm/tree
   license: http://dev.perl.org/licenses/
-version: 0.11
+  repository: git://github.com/ingydotnet/package-pm.git
+version: 0.12
