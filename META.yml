@@ -31,4 +31,4 @@ resources:
   homepage: http://github.com/ingydotnet/package-pm/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/ingydotnet/package-pm.git
-version: 0.12
+version: 0.13
