@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 1.01'
+generated_by: 'Module::Install version 1.02'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,7 +28,10 @@ requires:
   YAML::XS: 0.35
   perl: 5.8.3
 resources:
-  homepage: http://github.com/ingydotnet/package-pm/tree
+  homepage: https://github.com/ingydotnet/package-pm/tree
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/ingydotnet/package-pm.git
-version: 0.14
+  repository:
+    type: git
+    url: git://github.com/ingydotnet/package-pm.git
+    web: https://github.com/ingydotnet/package-pm/tree
+version: 0.15
