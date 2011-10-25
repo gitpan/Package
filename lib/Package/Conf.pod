@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-Package::Conf - Config Class for Package
+Package::Conf - Configuration for Package
 
 =head1 AUTHOR
 

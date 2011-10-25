@@ -21,11 +21,11 @@ no_index:
     - xt
 requires:
   Hash::Merge: 0.12
-  IO::All: 0.43
-  Mouse: 0.93
+  IO::All: 0.44
+  Mouse: 0.97
   MouseX::App::Cmd: 0.08
-  Template::Toolkit::Simple: 0.13
-  YAML::XS: 0.35
+  Template::Toolkit::Simple: 0.14
+  YAML::XS: 0.37
   perl: 5.8.3
 resources:
   homepage: https://github.com/ingydotnet/package-pm/tree
@@ -34,4 +34,4 @@ resources:
     type: git
     url: git://github.com/ingydotnet/package-pm.git
     web: https://github.com/ingydotnet/package-pm/tree
-version: 0.15
+version: 0.16
