@@ -1,56 +1,39 @@
----
-version: 0.17
-date:    Sun Jan  1 18:14:48 PST 2012
-changes:
-- Small changes for git init
----
-version: 0.16
-date:    Mon Oct 24 21:22:18 PDT 2011
-changes:
-- Major refactor. Released from Larry Wall's new and comfy couch.
----
-version: 0.15
-date:    Fri Oct 21 18:32:55 PDT 2011
-changes:
-- Add a 'repo' subcommand
----
-version: 0.14
-date:    Thu Sep 29 20:41:41 CEST 2011
-changes:
-- Even more doc and refactoring
-- Released from Liz++ and Wendy++'s Harry Potter Room!
----
-version: 0.13
-date:    Sun Sep 25 22:16:28 CEST 2011
-changes:
-- More doc and some refactoring
-- Released from Liz++ and Wendy++'s Basement Comic Book Room!
----
-version: 0.12
-date:    Thu Sep 22 22:49:10 CEST 2011
-changes:
-- First release as a pkg creation tool.
----
-version: 0.11
-date:    Wed May 18 15:34:33 EST 2011
-changes:
-- Move Module::Install stuff in this distro to Module::Package
-- use inc::Module::Package
----
-version: 0.10
-date:    Tue May 17 23:44:30 EST 2011
-changes:
-- Proper rewrite
-- Support 'use inc::Package';
-- Clean out generated pods
-- Lots more docs.
----
-version: 0.02
-date:    Mon May 16 01:09:34 EST 2011
-changes:
-- Remove bootstrap 'use lib' from Makefile.PL
----
-version: 0.01
-date:    Mon May 16 00:00:27 EST 2011
-changes:
-- First Release
+0.18 Fri Jun 27 23:06:11 PDT 2014
+ - Convert to Zilla-Dist
+
+0.17 Sun Jan  1 18:14:48 PST 2012
+ - Small changes for git init
+
+0.16 Mon Oct 24 21:22:18 PDT 2011
+ - Major refactor. Released from Larry Wall's new and comfy couch.
+
+0.15 Fri Oct 21 18:32:55 PDT 2011
+ - Add a 'repo' subcommand
+
+0.14 Thu Sep 29 20:41:41 CEST 2011
+ - Even more doc and refactoring
+ - Released from Liz++ and Wendy++'s Harry Potter Room!
+
+0.13 Sun Sep 25 22:16:28 CEST 2011
+ - More doc and some refactoring
+ - Released from Liz++ and Wendy++'s Basement Comic Book Room!
+
+0.12 Thu Sep 22 22:49:10 CEST 2011
+ - First release as a pkg creation tool.
+
+0.11 Wed May 18 15:34:33 EST 2011
+ - Move Module::Install stuff in this distro to Module::Package
+ - use inc::Module::Package
+
+0.10 Tue May 17 23:44:30 EST 2011
+ - Proper rewrite
+ - Support 'use inc::Package';
+ - Clean out generated pods
+ - Lots more docs.
+
+0.02 Mon May 16 01:09:34 EST 2011
+ - Remove bootstrap 'use lib' from Makefile.PL
+
+0.01 Mon May 16 00:00:27 EST 2011
+ - First Release
+

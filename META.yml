@@ -2,36 +2,31 @@
 abstract: 'The Acmeist Module Package Management Tool'
 author:
   - 'Ingy döt Net <ingy@cpan.org>'
-build_requires:
-  ExtUtils::MakeMaker: 6.42
+build_requires: {}
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 1.02'
+  ExtUtils::MakeMaker: '6.30'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-module_name: Package
+  version: '1.4'
 name: Package
 no_index:
   directory:
     - inc
     - t
     - xt
+    - example
 requires:
-  Hash::Merge: 0.12
-  IO::All: 0.44
-  Mouse: 0.97
-  MouseX::App::Cmd: 0.08
-  Template::Toolkit::Simple: 0.14
-  YAML::XS: 0.37
-  perl: 5.8.3
+  Hash::Merge: '0'
+  Mouse: '0'
+  MouseX::App::Cmd: '0'
+  Template::Toolkit::Simple: '0'
+  YAML::XS: '0'
+  perl: v5.8.1
 resources:
-  homepage: https://github.com/ingydotnet/package-pm/tree
-  license: http://dev.perl.org/licenses/
-  repository:
-    type: git
-    url: git://github.com/ingydotnet/package-pm.git
-    web: https://github.com/ingydotnet/package-pm/tree
-version: 0.17
+  bugtracker: https://github.com/ingydotnet/package-pm/issues
+  homepage: https://github.com/ingydotnet/package-pm
+  repository: https://github.com/ingydotnet/package-pm.git
+version: '0.18'
