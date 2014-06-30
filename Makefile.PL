@@ -23,12 +23,13 @@ my %WriteMakefileArgs = (
   "NAME" => "Package",
   "PREREQ_PM" => {
     "Hash::Merge" => 0,
+    "IO::All" => 0,
     "Mouse" => 0,
     "MouseX::App::Cmd" => 0,
     "Template::Toolkit::Simple" => 0,
     "YAML::XS" => 0
   },
-  "VERSION" => "0.18",
+  "VERSION" => "0.19",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -37,6 +38,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Hash::Merge" => 0,
+  "IO::All" => 0,
   "Mouse" => 0,
   "MouseX::App::Cmd" => 0,
   "Template::Toolkit::Simple" => 0,
