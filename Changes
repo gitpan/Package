@@ -1,3 +1,6 @@
+0.20 Wed Jul 16 22:42:05 PDT 2014
+ - Fix Meta and add Contributing file
+
 0.19 Mon Jun 30 12:22:40 PDT 2014
  - Add IO::All dependency
 
