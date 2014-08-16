@@ -30,4 +30,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/package-pm/issues
   homepage: https://github.com/ingydotnet/package-pm
   repository: https://github.com/ingydotnet/package-pm.git
-version: '0.23'
+version: '0.24'
