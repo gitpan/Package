@@ -11,12 +11,13 @@ bin/pkg
 lib/Package.pm
 lib/Package.pod
 lib/Package/Conf.pm
+t/000-compile-modules.t
 t/release-pod-syntax.t
 t/use_ok.t
 xt/TestPkg.pm
-xt/new-perl-basic.t
-xt/new-perl-dzil.t
-xt/new-perl-ingy-modern.t
+xt/new-perl-basic.t_
+xt/new-perl-dzil.t_
+xt/new-perl-ingy-modern.t_
 xt/perl-basic-expected/Changes
 xt/perl-basic-expected/Makefile.PL
 xt/perl-basic-expected/lib/Foo/Bar.pm
